@@ -30,12 +30,11 @@ body {
     margin: 0;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.377);
-   text-align: center;
+    text-align: center;
 
 }
 li {
     display: inline;
-  
 }
 
 #band {
@@ -45,43 +44,16 @@ li {
   opacity: .8;
   text-align: center;
   font-size: 105px;
+  margin-top: 40px;
 }
-#tour {
-  padding: 15px;
-  font-family: 'Special Elite', cursive;
-  color: rgb(36, 5, 0);
-  text-align: center;
-  font-size: 20px;
-}
-/*FONTS*/
-/* font-family: 'Bowlby One SC', cursive; */
-/* font-family: 'Amatic SC', cursive; */
-/* font-family: 'Special Elite', cursive; */
-/* font-family: 'Julius Sans One', sans-serif; */
-/* font-family: 'Syncopate', sans-serif; */
-/* font-family: 'Lacquer', sans-serif; */
-/* font-family: 'Zilla Slab Highlight', cursive; */
-/* font-family: 'Bungee Inline', cursive; */
 
-.dates {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.dates div {
-  border-style: ridge;
-}
-#tour {
-  background-color: rgb(236, 236, 236);
-  opacity: .95;
-}
 
 /* PROMO container */
 .promo-container {
   position: relative;
   background: #f1f1f1f1;
+  margin-top: 40px;
 }
-
-
 
 /* Slides */
 .mySlides {
@@ -148,6 +120,68 @@ q {
   font-family: 'Special Elite', cursive;
   font-size: 30px;
 }
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#tour {
+  padding: 15px;
+  font-family: 'Special Elite', cursive;
+  color: rgb(36, 5, 0);
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  grid-column: 1 / 5;
+}
+.dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dates div {
+  border-style: ridge;
+}
+#tour {
+  background-color: rgb(236, 236, 236);
+  opacity: .95;
+}
+#merch {
+  display: grid;
+  padding: 15px;
+  font-family: 'Special Elite', cursive;
+  color: rgb(36, 5, 0);
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(236, 236, 236);
+  opacity: .95;
+  margin-top: 40px;
+  grid-column: 1 / 5;
+}
+.merch1 {
+  font-size: 30px;
+  grid-column: 1 / 5;
+  margin-bottom: 10px;
+}
+.merch2 {
+  font-size: 30px;
+  grid-column: 1 / 2;
+}
+.merch3 {
+  font-size: 30px;
+  grid-column: 2 / 3;
+}
+.merch4 {
+  font-size: 30px;
+  grid-column: 3 / 4;
+}
+.merch5 {
+  font-size: 30px;
+  grid-column: 4 / 5;
+}
+footer {
+  padding: 15px;
+  font-family: 'Special Elite', cursive;
+  color:rgb(255, 255, 255);
+  opacity: .8;
+  text-align: center;
+  background-color: rgba(139, 139, 139, .4);
+}

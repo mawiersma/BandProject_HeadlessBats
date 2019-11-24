@@ -91,7 +91,7 @@ html {
   margin: 10px;
 }
 
-/* ------------------------- */
+/* ------User Input Box------ */
 
 
 input[type=text], select {
@@ -126,4 +126,13 @@ input[type=submit]:hover {
   padding: 20px;
   font-family: 'Special Elite', cursive;
   margin: 50px;
+  justify-content: center;
+}
+footer {
+    padding: 15px;
+    font-family: 'Special Elite', cursive;
+    color:rgb(255, 255, 255);
+    opacity: .8;
+    text-align: center;
+    background-color: rgba(139, 139, 139, .4);
 }

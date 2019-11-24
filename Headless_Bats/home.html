@@ -8,6 +8,7 @@
     <script src="JS/home.js"></script>
     <link rel="icon" href="CSS/IMG/icon.PNG" type="image/gif" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Bungee+Inline|Julius+Sans+One|Lacquer|Special+Elite|Syncopate|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Headless Bats</title>
 </head>
 <body>
@@ -22,41 +23,36 @@
             </ul>
         </nav>
     </header>
-    <main class="grid-container">
-    <section id="band">Headless Bats</section>
+    <main>
+        <section id="band">Headless Bats</section>
     
-<!-- PROMO -->
-    <div class="promo-container">
-
-        <!-- Full-width slides/quotes -->
-        <div class="mySlides">
-          <q>Boston show is sold out!</q>
-        </div>
-      
-        <div class="mySlides">
-          <q>#HeadlessBats</q>
-        </div>
-      
-        <div class="mySlides">
-          <q>New York show, almost sold out!</q>
-        </div>
+        <!-- PROMO -->
+        <div class="promo-container">
+            <div class="mySlides">
+            <q>Boston show is sold out!</q>
+            </div>
+            <div class="mySlides">
+            <q>#HeadlessBats</q>
+            </div>
+            <div class="mySlides">
+            <q>New York show, almost sold out!</q>
+            </div>
       
         <!-- Next/prev buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      
-      <!-- Dots/bullets/indicators -->
-      <div class="dot-container">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-    <ul id="tour">
-        <div class="TourTitle">
-            <div class="listing">Tour Dates</div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+      
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    <!-- Tour Listing -->
+    <div class="grid-container">
+    <ul id="tour">
+        <div class="TourTitle">Tour Dates</div>
         <div class="dates">
                 <div><p>Miami</p><p>12/20/2019</p></div>
                 <div><p>New York</p><p>1/10/2020</p></div>
@@ -68,8 +64,21 @@
                 <div><p>Portland</p><p>4/21/2020</p></div>
         </div>
     </ul>
-    <section id="merch"></section>
-    <section id="footer"></section>
+    <!-- Highlighted Merch Sidebar -->
+        <section id="merch">
+            <div class="merch1">Custom Band Attire</div>
+            <div class="merch2">TShirts<br><img src="CSS/IMG/t_shirt.jpg" alt="Picture of TShirts"></div>
+            <div class="merch3">Hoodies<br><img src="CSS/IMG/hoodie.jpg" alt="Picture of Hoodie"></div>
+            <div class="merch4">Hats<br><img src="CSS/IMG/hats.jpg" alt="Picture of Hats"></div>
+            <div class="merch5">Bags<br><img src="CSS/IMG/bags.jpg" alt="Picture of Bag"></div>
+        </section>
+    </div>
     </main>
+    <!-- Footer -->
+    <footer>
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter-square"></i>
+    </footer>
 </body>
 </html>
