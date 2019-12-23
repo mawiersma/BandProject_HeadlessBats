@@ -4,7 +4,7 @@
 
 html {
     box-sizing: border-box;
-    background-image: url(/CSS/IMG/News.jpg);
+    background-image: url(IMG/News.jpg);
     background-size: cover;
   }
  * , :before, *:after {

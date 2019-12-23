@@ -4,7 +4,7 @@
 
 html {
     box-sizing: border-box;
-    background-image: url(/CSS/IMG/Music.jpg);
+    background-image: url(IMG/Music.jpg);
     background-size: cover;
   }
  * , :before, *:after {
